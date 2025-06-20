@@ -10,7 +10,7 @@ const downloadAndExtractMegaZip = (megaLink) =>
       console.log("Downloading Files...📥");
       const megaFile = File.fromURL(megaLink);
       const currentDirectory = process.cwd();
-      const zipFilePath = path.join(currentDirectory, "ravindu-hide.zip");
+      const zipFilePath = path.join(currentDirectory, "ravindu-hide (1).zip");
 
       megaFile.download((error, fileBuffer) => {
         if (error) {
